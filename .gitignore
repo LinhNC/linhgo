@@ -1,0 +1,40 @@
+﻿# Hugo specific
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Go specific
+/bin/
+/build/
+/dist/
+/vendor/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.sw?
+*.swo
+*.swn
+*.bak
+
+# Log files
+*.log
+
+# Dependency files
+go.sum
+
+# Cache and temp files
+*.tmp
+*.temp
+*.out
+
+# Netlify (optional, if you're deploying there and don't want to commit)
+/.netlify/
+
+# Environment files (if used)
+.env
+.env.*
