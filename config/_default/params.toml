@@ -328,7 +328,7 @@ bundle = false
     [page.comment.utterances]
       enable = true
       # owner/repo
-      repo = "Hugo-DoIt/utterances-comments"
+      repo = "LinhNC/linhgo-comments"
       issueTerm = "pathname"
       label = ""
       lightTheme = "github-light"
