@@ -18,9 +18,6 @@ This guide walks you through creating a simple .NET CLI tool using .NET 8. The t
 
 <!--more-->
 
-
-# 🌤 Building a Weather CLI Tool with .NET 8
-
 The goal is to create a simple yet powerful CLI tool named `weathercli` that fetches the current weather of any city using the [OpenWeatherMap API](https://openweathermap.org/api).
 
 This guide walks you through everything step-by-step.
@@ -289,7 +286,3 @@ dotnet tool uninstall --global weathercli
 | 7    | Install with `dotnet tool install`      |
 | 8    | Use with `weathercli <city>`            |
 | 9    | Enhance for real-world usage            |
-
----
-
-Let me know if you want a version of this guide exported as a PDF, blog post layout, or even published as a GitHub template!
