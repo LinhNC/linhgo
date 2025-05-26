@@ -12,20 +12,20 @@
   # title will be shown when you hover on this menu link.
   title = ""
   weight = 1
+ [[main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 2
 [[main]]
   identifier = "tags"
   pre = ""
   post = ""
   name = "Tags"
   url = "/tags/"
-  title = ""
-  weight = 2
-[[main]]
-  identifier = "categories"
-  pre = ""
-  post = ""
-  name = "Categories"
-  url = "/categories/"
   title = ""
   weight = 3
 [[main]]
