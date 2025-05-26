@@ -75,3 +75,9 @@
 .more-post {
   text-align: right;
 }
+
+.archive-item-description {
+  text-overflow: ellipsis;
+  color: $global-font-secondary-color;
+  font-size: 0.875rem;
+}

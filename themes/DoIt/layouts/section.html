@@ -22,9 +22,12 @@
                 <h3 class="group-title">{{ .Key }}</h3>
                 {{- range .Pages -}}
                     <article class="archive-item">
-                        <a href="{{ .RelPermalink }}" class="archive-item-link">
-                            {{- .Title -}}
-                        </a>
+                        <div>
+                            <a href="{{ .RelPermalink }}" class="archive-item-link">
+                                {{- .Title -}}
+                            </a>
+                            <p class="archive-item-description">{{- .Description }}</p>
+                        </div>
                         <span class="archive-item-date">
                             {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
                         </span>
