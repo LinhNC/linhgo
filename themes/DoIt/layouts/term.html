@@ -59,12 +59,19 @@
             {{- if eq $taxonomy "series" -}}
                 {{- range .Paginator.Pages -}}
                     <article class="archive-item">
-                        <div>
-                            <a href="{{ .RelPermalink }}" class="archive-item-link">
-                                {{- .Title -}}
-                            </a>
-                            <p class="archive-item-description">{{- .Description }}</p>
-                        </div>
+                        <a href="{{ .RelPermalink }}">
+                            <div style="display: flex; gap: 4px">
+                                {{ with .Resources.GetMatch .Params.featuredImage }}
+                                <img src="{{ .RelPermalink }}" alt="Featured Image" width="96" height="48">
+                                {{ end }}
+                                <div>
+                                    <div class="archive-item-link">
+                                        {{- .Title -}}
+                                    </div>
+                                    <p class="archive-item-description">{{- .Description }}</p>
+                                </div>
+                            </div>
+                        </a>
                         <span class="archive-item-date">
                             {{- $.Site.Params.dateFormat | default "2006-01-02" | .Date.Format -}}
                         </span>
@@ -75,12 +82,19 @@
                     <h3 class="group-title">{{ .Key }}</h3>
                     {{- range .Pages -}}
                         <article class="archive-item">
-                            <div>
-                                <a href="{{ .RelPermalink }}" class="archive-item-link">
-                                    {{- .Title -}}
-                                </a>
-                                <p class="archive-item-description">{{- .Description }}</p>
-                            </div>
+                            <a href="{{ .RelPermalink }}">
+                                <div style="display: flex; gap: 4px">
+                                    {{ with .Resources.GetMatch .Params.featuredImage }}
+                                    <img src="{{ .RelPermalink }}" alt="Featured Image" width="96" height="48">
+                                    {{ end }}
+                                    <div>
+                                        <div class="archive-item-link">
+                                            {{- .Title -}}
+                                        </div>
+                                        <p class="archive-item-description">{{- .Description }}</p>
+                                    </div>
+                                </div>
+                            </a>
                             <span class="archive-item-date">
                                 {{- $.Site.Params.list.dateFormat | default "01-02" | .Date.Format -}}
                             </span>

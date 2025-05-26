@@ -1,6 +1,4 @@
-﻿# Me 💖
-
-Hi, I'm **Nguyen Chi Linh** – you can call me **David**. I'm a full-stack developer based in **Vietnam**!
+﻿Hi, I'm **Nguyen Chi Linh** – you can call me **David**. I'm a full-stack developer based in **Vietnam**!
 
 ---
 
