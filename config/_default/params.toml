@@ -40,7 +40,7 @@ titleSuffix = " | LinhGo"
   # Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/logo.png"
+    logo = "/logo.webp"
     # title name
     #name = "LinhGo"
     # you can add extra information before the name (HTML format is supported), such as icons
