@@ -15,7 +15,7 @@ header:
     enable: false
 ---
 
-Here is an overview of **n8n**, a powerful workflow automation tool that allows you to connect various applications and services seamlessly. This guide will introduce you to n8n, its features, installation methods, and a simple example workflow.
+The overview of n8n, a powerful workflow automation tool that allows you to connect various applications and services seamlessly.
 <!--more-->
 
 
