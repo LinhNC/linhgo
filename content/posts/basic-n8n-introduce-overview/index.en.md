@@ -1,11 +1,11 @@
-﻿---
+---
 weight: 1
-title: "n8n: Workflow Automation Tool Overview"
+title: "n8n: AI Workflow Automation Tool"
 date: 2025-05-27T01:57:40+08:00
 lastmod: 2025-05-27T01:57:40+08:00
 draft: false
 authors: ["Linh"]
-description: "Introduction to n8n, a powerful workflow automation tool with over 500 integrations and AI capabilities."
+description: "Introduction to n8n, a AI powerful workflow automation tool with over 500 integrations and AI capabilities."
 featuredImage: "featured-image.webp"
 
 tags: ["n8n","AI", "Automation", "Workflow"]
@@ -15,7 +15,7 @@ header:
     enable: false
 ---
 
-The overview of n8n, a powerful workflow automation tool that allows you to connect various applications and services seamlessly.
+The overview of n8n, a AI powerful workflow automation tool that allows you to connect various applications and services seamlessly.
 <!--more-->
 
 
