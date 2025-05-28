@@ -1,8 +1,8 @@
 ﻿---
 weight: 1
 title: "n8n: Workflow Automation Tool Overview"
-date: 2025-05-25T21:57:40+08:00
-lastmod: 2025-05-25T21:57:40+08:00
+date: 2025-05-27T01:57:40+08:00
+lastmod: 2025-05-27T01:57:40+08:00
 draft: false
 authors: ["Linh"]
 description: "Introduction to n8n, a powerful workflow automation tool with over 500 integrations and AI capabilities."
@@ -58,14 +58,14 @@ This example demonstrates a workflow where:
 - Copy the generated **Webhook URL**.
 
 {{< image src="/webhook.webp" caption="WebHook (`image`)" src_s="/webhook.webp" src_l="/webhook.webp" >}}
-![Webhook Node](https://github.com/n8n-io/n8n/blob/master/docs/images/webhook-node.png)
+
 
 ### Step 2: Create a Slack Node
 - Add a **Slack** node.
 - Configure it with your **Slack API Token**.
 - Set the **Channel** and **Message**.
 
-![Slack Node](https://github.com/n8n-io/n8n/blob/master/docs/images/slack-node.png)
+{{< image src="/slack.png" caption="Slack (`image`)" src_s="/slack.png" src_l="/slack.png" >}}
 
 ### Step 3: Connect the Nodes
 - Link the **Webhook** node to the **Slack** node.
@@ -102,4 +102,4 @@ Hello from n8n!
 - [n8n Documentation](https://docs.n8n.io/)
 - [Slack API](https://api.slack.com/)
 - [n8n Community Forum](https://community.n8n.io/)
-```
+
