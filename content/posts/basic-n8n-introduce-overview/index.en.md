@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "n8n: AI Powerful Workflow Automation Tool"
+title: "n8n: AI Powerful Workflow Automation"
 date: 2025-05-27T01:57:40+08:00
 lastmod: 2025-05-27T01:57:40+08:00
 draft: false
