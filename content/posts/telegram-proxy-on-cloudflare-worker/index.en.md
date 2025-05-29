@@ -29,7 +29,7 @@ This guide walks you through deploying the [`telegram-bot-proxy`](https://github
 
 ---
 
-## 1. 🛠️ Create the Worker
+## 🛠️ Create the Worker
 
 1. Go to your [Cloudflare dashboard](https://dash.cloudflare.com/)
 
@@ -128,7 +128,7 @@ This guide walks you through deploying the [`telegram-bot-proxy`](https://github
 
 ---
 
-## 2. 🌐 Add Your Custom Domain
+## 🌐 Add Your Custom Domain
 
 1. Back in Cloudflare Dashboard → **Websites** → **Add a Site** (if not already added)
 
@@ -156,7 +156,7 @@ This guide walks you through deploying the [`telegram-bot-proxy`](https://github
 
 ---
 
-## 3. 🔗 Route Domain to the Worker
+## 🔗 Route Domain to the Worker
 
 1. Go to **Workers & Pages** → Your Worker → **Triggers** tab
 2. Scroll to **Routes**
@@ -168,7 +168,7 @@ This guide walks you through deploying the [`telegram-bot-proxy`](https://github
 
 ---
 
-## 4. ✅ Final Test
+## ✅ Final Test
 
 1. Open your browser and go to https://yourdomain.com/ then you should see a simple HTML page indicating the worker is running.
 
