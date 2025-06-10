@@ -19,7 +19,7 @@ The basic Linux commands for beginners, including file management, system inform
 <!--more-->
 Linux is a powerful and versatile operating system widely used in servers, development environments, and cloud systems. Whether you're a beginner or looking to refresh your skills, mastering basic Linux commands is essential for navigating the file system, managing processes, checking system information, and handling networks or files efficiently. This cheat sheet provides a quick reference to commonly used Linux commands, organized by category for easy access.
 
-
+{{< image src="/sheet.webp" caption="Linux Commands Sheet" src_s="/sheet.webp" src_l="/sheet.webp" >}}
 Here's a list of **all the basic Linux commands** from the image you provided, grouped by category:
 
 ---
